@@ -30,6 +30,8 @@ button, input{
   clear: both;
 }
 
+
+
 body{
   font-size: 14px;
   font-family: 'Noto Sans KR', sans-serif;
@@ -41,4 +43,11 @@ body{
 /* 모바일에서 줄 바꿈 해지 */
 br.mo{
   display: none;
+}
+
+.center{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); 
 }
